@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# S8kPred job outputs (large, user-generated)
+s8kpred_jobs/
+
+# BLAST databases (very large)
+*.phr
+*.pin
+*.pog
+*.pos
+*.pot
+*.psq
+*.ptf
+*.pto
+uniref50*
+
+# Large model files (distributed via releases, not committed to git)
+s8kpred/data/*.json
+s8kpred/data/*.ubj
+s8kpred/data/*.csv
+
+# MacOS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include pyproject.toml
+
+# Include data files in source distribution
+recursive-include s8kpred/data *.csv *.json *.ubj *.txt
+
+# Include test fixtures
+recursive-include tests *.fasta *.py
+
+# Exclude compiled Python
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.pyo
